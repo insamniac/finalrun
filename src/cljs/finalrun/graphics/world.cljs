@@ -19,8 +19,7 @@
             (let [k (first m) v (second m)]
             (-> wmap
             (update  k + v)
-            (update :moves rest)
-            print-obj-coords))
+            (update :moves rest)))
          :otherwise wmap)))
 
 (defn check-horiz [state bw mx dx]

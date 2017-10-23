@@ -26,7 +26,10 @@
 
 (defn home-page []
   [:div.container
-      [:canvas#canvas1 {:style {:position "absolute" :left 10}}]
+   [:audio#aplayer {:controls {} :autoPlay "true" :loop {} :style {:position "absolute" :left 5 :top 5}}
+    [:source {:src "/music/seattle.mp3"}]]
+      [:canvas#canvas1 {:style {:position "absolute" :left 5 :top 40}}]
+      (g/play-theme)
       (g/first-sketch)])
 
 (def pages

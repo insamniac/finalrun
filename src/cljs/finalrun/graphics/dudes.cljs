@@ -25,8 +25,7 @@
 			(-> dude
 		 	(update  k + v)
 			(update :moves rest)
-            set-image
-            print-obj-coords))
+            set-image))
 		 :otherwise dude)))
 
 (defn check-moving [dude]

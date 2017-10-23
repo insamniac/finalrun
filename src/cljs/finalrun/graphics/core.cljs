@@ -91,6 +91,10 @@
   (println "key-up")))
 
 
+(defn play-theme []
+  (let [player (.getElementById js/document "aplayer")]
+    (.log js/console  player)))
+
 (defn first-sketch []
 (q/defsketch canvas1
   :host "canvas1"
