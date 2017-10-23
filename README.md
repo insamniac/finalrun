@@ -1,21 +1,14 @@
 # finalrun
 
-generated using Luminus version "2.9.11.95"
 
-FIXME
 
-## Prerequisites
+Just a little learning/playing  project. Maybe it will get better.
 
-You will need [Leiningen][1] 2.0 or above installed.
 
-[1]: https://github.com/technomancy/leiningen
-
-## Running
-
-To start a web server for the application, run:
-
-    lein run 
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 Sam Burke
+This work is free. You can redistribute it and/or modify it under the
+terms of the Do What The Fuck You Want To Public License, Version 2,
+as published by Sam Hocevar. See the COPYING file for more details.
